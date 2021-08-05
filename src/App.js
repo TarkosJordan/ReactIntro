@@ -1,9 +1,12 @@
+import React from 'react'
+import { ListaTiposComponentes } from './components/ListaTiposComponentes.jsx'
+import { FormularioCadastro } from './components/FormularioCadastro.jsx'
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Aplicação React</h1>
-      </header>
+    <div>
+      <FormularioCadastro/>
+      <ListaTiposComponentes/>
     </div>
   );
 }
