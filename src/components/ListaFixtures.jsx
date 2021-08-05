@@ -4,10 +4,7 @@ class ListaFixtures extends Component{
     render(){
         return(
             <ul>
-                <li>FX-08</li>
-                <li>FX-09</li>
-                <li>FX-10</li>
-                <li>FX-11</li>
+                { Array.of("FX-08","FX-12","FX-10","FX-11").map(fixture => { return <li>{fixture}</li> }) }
             </ul>
         )
     }

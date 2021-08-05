@@ -4,10 +4,7 @@ class ListaBases extends Component{
     render(){
         return(
             <ul>
-                <li>BS-21</li>
-                <li>BS-22</li>
-                <li>BS-23</li>
-                <li>BS-24</li>
+                { Array.of("BS-21","BS-22","BS-23","BS-24").map(base => { return <li>{base}</li> }) }
             </ul>
         )
     }

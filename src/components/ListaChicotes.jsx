@@ -4,10 +4,7 @@ class ListaChicotes extends Component{
     render(){
         return(
             <ul>
-                <li>CNV-96</li>
-                <li>CNV-97</li>
-                <li>CNV-98</li>
-                <li>CNV-99</li>
+                { Array.of("CNV-96","CNV-97","CNV-98","CNV-99").map(chicote => { return <li>{chicote}</li> }) }
             </ul>
         )
     }

@@ -4,10 +4,7 @@ class ListaGravadores extends Component{
     render(){
         return(
             <ul>
-                <li>GR-01</li>
-                <li>GR-02</li>
-                <li>GR-03</li>
-                <li>GR-04</li>
+                { Array.of("GR-01","GR-02","GR-03","GR-04").map(gravador => { return <li>{gravador}</li> }) }
             </ul>
         )
     }
