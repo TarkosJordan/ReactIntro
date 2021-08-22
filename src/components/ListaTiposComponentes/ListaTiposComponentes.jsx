@@ -9,7 +9,7 @@ class ListaTiposComponentes extends Component{
     render(){
         return (
             <section className = "botao-tipo-comp">
-                <ul>/
+                <ul>
                     <li>
                         <h3 className>Chicotes</h3>
                         <ListaChicotes/>
